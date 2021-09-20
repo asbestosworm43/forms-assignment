@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/form.css">
+
+</head>
+<body>
+
+<container>
+
+  <div class="block" style="
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #9DBEBB;">
+
+  <div class="red" style="
+    position: absolute;
+    width: 954px;
+    height: 594px;
+    left: 243px;
+    top: 153px;
+    background: #BE0909;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);">
+
+    <form action="Duck-form" style="margin-left: 50px; margin-top: 50px;">
+
+        <label for="fname">Full Name: <br>
+        </label>
+        <input type="text" id="fname" name="fname" style="margin-bottom: 25px; margin-top: 17.5px;"><br><br>
+
+        <label for="email">Email: <br>
+        </label>
+        <input type="text" id="fname" name="fname" placeholder="Your Email" style="width: 160px; margin-bottom: 50px; margin-top: 17.5px;"><br><br>
+
+        <label for="rmess">Message regarding:</label> <br>
+        <select name="drop" class="dropb" id="select" style="width: 160px; margin-bottom: 50px; margin-top: 17.5px;">
+            <option value="random-value-blank"></option>
+            <option value="random-value-one">Random value one</option>
+            <option value="random-value-two">Random value two</option>
+            <option value="random-value-three">Random value three</option>
+        </select> <br>
+
+        <label for="msg">Message:<br>
+        </label>
+        <input type="text" name="msg" id="msg" placeholder="Your message" style="margin-bottom: 50px; margin-top: 17.5px;">
+
+
+        <div class="snd-msg">
+            <button class="snd-btn">Send message</button>
+        </div>
+
+    </form>
+
+  </div>
+
+  <div class="yellow" style="
+    position: absolute;
+    width: 345px;
+    height: 594px;
+    left: 852px;
+    top: 153px;
+    background: #FFB039;
+    display: flex;
+    align-items: baseline;
+    align-content: flex-end;
+    justify-content: space-evenly;">
+
+    <img src="images/Duck.svg" alt="Duck"
+    style="margin-top: 100px;
+    margin-right: 220px;">
+
+  </div>
+
+  </div>
+
+</container>
+
+</body>
+</html>

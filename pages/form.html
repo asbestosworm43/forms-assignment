@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+    <form action="Duck-form">
+        <label for="fname">Full Name:</label>
+        <input type="text" id="fname" name="fname" required minlength="1" maxlength="12">
+
+        <label for="email">Email:</label>
+        <input type="text" id="fname" name="fname" placeholder="Your Email" required email>
+
+        <label for="rmess">Message regarding:</label>
+        <select name="drop" class="dropb" id="select">
+            <option value="random-value-blank"></option>
+            <option value="random-value-one">Random value one</option>
+            <option value="random-value-two">Random value two</option>
+            <option value="random-value-three">Random value three</option>
+        </select> <br>
+
+        <label for="msg">Message:</label>
+        <input type="text" name="msg" id="msg" placeholder="Your message" required minlength="5" maxlength="140">
+
+        <div class="snd-msg">
+            <button class="snd-btn">Send message</button>
+        </div>
+    </form>
+
+</html>
